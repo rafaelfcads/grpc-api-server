@@ -1,0 +1,17 @@
+{
+  "name": "grpc-api-server",
+  "version": "1.0.0",
+  "description": "GRPC server example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app/grpc/boot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Ferreira Reis",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "0.5.5",
+    "grpc": "1.24.3",
+    "lodash": "4.17.20"
+  }
+}

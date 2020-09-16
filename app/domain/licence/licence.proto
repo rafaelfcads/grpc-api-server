@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package licence;
+
+service Licence {
+  rpc findAll (LicenceRequest) returns (LicenceResponse) {}
+}
+
+message LicenceRequest {
+  int32 id = 1;
+}
+
+message LicenceResponse {
+  LicenceDetails message = 1;
+}
+
+message LicenceDetails {
+  int32 id = 1;
+  string user = 2;
+  string book = 3; 
+}

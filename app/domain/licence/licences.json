@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "user": "user@gmail.com",
+    "book": "Software Architecture"
+  },
+  {
+    "id": 2,
+    "user": "user@gmail.com",
+    "book": "Clean Code"
+  }
+]
