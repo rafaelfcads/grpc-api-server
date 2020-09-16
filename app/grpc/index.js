@@ -4,7 +4,7 @@ const rpcServer = new grpc.Server()
 
 const server = {
   addService: (service, options) => {
-    rpcServer.addService(service, { findAll: () => []})
+    rpcServer.addService(service, options)
     return server
   },
   start: () => {
